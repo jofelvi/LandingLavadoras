@@ -55,7 +55,7 @@ export class Contact extends Component {
                     <p className="help-block text-danger"></p>
                   </div>
                   <div id="success"></div>
-                  <ReactWhatsapp style={{ background: "none", border: "none" }} number="+34651723542" message={`Hola mi nombre es ${this.state.nombre} tengo la siguiente consulta :  ${this.state.mensaje}`} >
+                  <ReactWhatsapp style={{ background: "none", border: "none" }} number="+34642994316" message={`Hola mi nombre es ${this.state.nombre} tengo la siguiente consulta :  ${this.state.mensaje}`} >
                     <button type="submit" className="btn btn-custom btn-lg">
                       Enviar Mensaje
                   </button>
