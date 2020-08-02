@@ -1,6 +1,16 @@
 import React, { Component } from "react";
+import ReactWhatsapp from 'react-whatsapp';
+import Button from '@material-ui/core/Button';
 
 export class Contact extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      nombre: "",
+      mensaje: ""
+    }
+  }
   render() {
     return (
       <div>
@@ -19,23 +29,13 @@ export class Contact extends Component {
                     <div className="col-md-6">
                       <div className="form-group">
                         <input
+                          className="form-control"
                           type="text"
-                          id="name"
-                          className="form-control"
-                          placeholder="Nombre"
                           required="required"
-                        />
-                        <p className="help-block text-danger"></p>
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="form-group">
-                        <input
-                          type="email"
-                          id="email"
-                          className="form-control"
-                          placeholder="Correo Electronico"
-                          required="required"
+                          id="Nombre "
+                          placeholder="nombre"
+                          value={this.state.nombre}
+                          onChange={e => this.setState({ nombre: (e.target.value) })}
                         />
                         <p className="help-block text-danger"></p>
                       </div>
@@ -43,9 +43,11 @@ export class Contact extends Component {
                   </div>
                   <div className="form-group">
                     <textarea
+                      className="form-control"
                       name="message"
                       id="message"
-                      className="form-control"
+                      value={this.state.mensaje}
+                      onChange={e => this.setState({ mensaje: (e.target.value) })}
                       rows="4"
                       placeholder="Mensaje"
                       required
@@ -53,9 +55,11 @@ export class Contact extends Component {
                     <p className="help-block text-danger"></p>
                   </div>
                   <div id="success"></div>
-                  <button type="submit" className="btn btn-custom btn-lg">
-                    Enviar Mensaje
+                  <ReactWhatsapp style={{ background: "none", border: "none" }} number="+34651723542" message={`Hola mi nombre es ${this.state.nombre} tengo la siguiente consulta :  ${this.state.mensaje}`} >
+                    <button type="submit" className="btn btn-custom btn-lg">
+                      Enviar Mensaje
                   </button>
+                  </ReactWhatsapp>
                 </form>
               </div>
             </div>
