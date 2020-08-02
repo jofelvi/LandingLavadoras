@@ -6,10 +6,9 @@ export class Gallery extends Component {
       <div id="portfolio" className="text-center">
         <div className="container">
           <div className="section-title">
-            <h2>Gallery</h2>
+            <h2>Marcas</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
+              Alguna de las marcas que trabajamos
             </p>
           </div>
           <div className="row">
@@ -24,10 +23,10 @@ export class Gallery extends Component {
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Lorem Ipsum</h4>
+                        <h4>Marca</h4>
                       </div>
                       <img
-                        src="img/portfolio/01-small.jpg"
+                        src="img/portfolio/01-large.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -48,7 +47,7 @@ export class Gallery extends Component {
                         <h4>Adipiscing Elit</h4>
                       </div>
                       <img
-                        src="img/portfolio/02-small.jpg"
+                        src="img/portfolio/02-large.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -69,7 +68,7 @@ export class Gallery extends Component {
                         <h4>Lorem Ipsum</h4>
                       </div>
                       <img
-                        src="img/portfolio/03-small.jpg"
+                        src="img/portfolio/03-large.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -90,7 +89,7 @@ export class Gallery extends Component {
                         <h4>Lorem Ipsum</h4>
                       </div>
                       <img
-                        src="img/portfolio/04-small.jpg"
+                        src="img/portfolio/04-large.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -103,7 +102,7 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/05-large.jpg"
+                      href="img/portfolio/05-large.png"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
@@ -111,7 +110,7 @@ export class Gallery extends Component {
                         <h4>Adipiscing Elit</h4>
                       </div>
                       <img
-                        src="img/portfolio/05-small.jpg"
+                        src="img/portfolio/05-large.png"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -124,7 +123,7 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/06-large.jpg"
+                      href="img/portfolio/06-large.png"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
@@ -132,7 +131,7 @@ export class Gallery extends Component {
                         <h4>Dolor Sit</h4>
                       </div>
                       <img
-                        src="img/portfolio/06-small.jpg"
+                        src="img/portfolio/06-large.png"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -145,7 +144,7 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/07-large.jpg"
+                      href="img/portfolio/07-large.png"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
@@ -153,7 +152,7 @@ export class Gallery extends Component {
                         <h4>Dolor Sit</h4>
                       </div>
                       <img
-                        src="img/portfolio/07-small.jpg"
+                        src="img/portfolio/07-large.png"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -166,7 +165,7 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/08-large.jpg"
+                      href="img/portfolio/08-large.png"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
@@ -174,7 +173,7 @@ export class Gallery extends Component {
                         <h4>Lorem Ipsum</h4>
                       </div>
                       <img
-                        src="img/portfolio/08-small.jpg"
+                        src="img/portfolio/08-large.png"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -187,7 +186,7 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/09-large.jpg"
+                      href="img/portfolio/09-large.png"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
@@ -195,13 +194,18 @@ export class Gallery extends Component {
                         <h4>Adipiscing Elit</h4>
                       </div>
                       <img
-                        src="img/portfolio/09-small.jpg"
+                        src="img/portfolio/09-large.png"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
                     </a>{" "}
                   </div>
                 </div>
+              </div>
+              <div className="section-title">
+                <p>
+                  Y muchas marcas mas
+            </p>
               </div>
             </div>
           </div>

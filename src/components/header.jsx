@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import ReactWhatsapp from 'react-whatsapp';
+import Button from '@material-ui/core/Button';
 
 export class Header extends Component {
   render() {
@@ -16,12 +18,13 @@ export class Header extends Component {
                   <p>
                     {this.props.data ? this.props.data.paragraph : "Loading"}
                   </p>
-                  <a
-                    href="#features"
-                    className="btn btn-custom btn-lg page-scroll"
-                  >
-                    Learn More
-                  </a>{" "}
+
+                  <ReactWhatsapp style={{ background: "none", border: "none" }} number="+34651723542" message="Hola Quiera solicitar informacion para reparar mi lavadora" >
+                    <Button variant="contained" size="large" style={{ background: "#25D366" }}>
+                      Contactanos via WhatsApp
+       </Button>
+                  </ReactWhatsapp>
+
                 </div>
               </div>
             </div>

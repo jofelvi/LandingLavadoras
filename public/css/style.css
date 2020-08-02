@@ -81,6 +81,15 @@ hr {
 	color: #333;
 	text-transform: uppercase;
 }
+@media only screen and (max-width: 600px) {
+	#menu a.navbar-brand { 
+		font-family: 'Raleway', sans-serif;
+		font-size: 16px;
+		font-weight: 700;
+		color: #333;
+		text-transform: uppercase;
+	}
+  }
 #menu.navbar-default .navbar-nav > li > a {
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
@@ -192,6 +201,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+	max-width: cover;
+	min-width: fit-content;
 }
 .intro .overlay {
 	background: rgba(0,0,0,0.2);
@@ -199,7 +210,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro h1 {
 	font-family: 'Raleway', sans-serif;
 	color: #fff;
-	font-size: 82px;
+	font-size: 60px;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-top: 0;
@@ -222,10 +233,27 @@ header .intro-text {
 	padding-bottom: 200px;
 	text-align: center;
 }
+@media only screen and (max-width: 600px) {
+	.intro h1 {
+		color: #fff;
+		font-size: 30px;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+  }
 /* Features Section */
 #features {
 	padding: 100px 0;
 	background: #f6f6f6;
+	background-color: #e5e5e5;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	max-width: cover;
+	min-width: fit-content;
 }
 #features i.fa {
 	font-size: 38px;
