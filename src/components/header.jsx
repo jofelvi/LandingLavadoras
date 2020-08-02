@@ -22,6 +22,7 @@ export class Header extends Component {
                   <ReactWhatsapp style={{ background: "none", border: "none" }} number="+34642994316" message="Hola Quiera solicitar informacion para reparar mi lavadora" >
                     <Button variant="contained" size="large" style={{ background: "#25D366" }}>
                       Contactanos via WhatsApp
+
        </Button>
                   </ReactWhatsapp>
 
